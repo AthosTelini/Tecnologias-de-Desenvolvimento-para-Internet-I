@@ -1,0 +1,111 @@
+:root{
+    /* Preto: #111
+    Cinza: #b2b2b2 */
+
+    --corAmarelo: #febe01;/*Amarelo 1 (preço, botão)*/
+    --corAmarelo2: #332200;/*Amarelo 2 (color botão)*/
+    --corDeFundo:#111;
+    --corTexto: #b2b2b2;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header-grid{
+    width: 90%;
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+#logo{
+    margin-left: 160px;
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+
+}
+.nav-button > button{
+    border:none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: #879400;
+    color: white;
+
+}
+
+section {
+    width: 40%; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+ 
+
+  .NomeLoja{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    color: black;
+  }
+  #idVisual{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+  }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 150px;
+}
+img{
+    margin: 20px 5px;
+    height: 200px;
+    border-radius: 4px;
+
+}
+.container{
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #111;
+    color: white;
+}
+.info{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: var(--corTexto);
+    margin: 10px;
+}
+span{
+    color: var(--corAmarelo);
+    font-weight: bold;
+}
+button {
+    border:none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: var(--corAmarelo);
+    color: var(--corAmarelo2);
+}
+
